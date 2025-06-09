@@ -4,8 +4,8 @@ Simple express app to understand how authenticaion cycle works.
 
 To run the server locally:
 
-```
-bash
+
+```bash
 // Install dependencies
 npm i 
 // Start local server
@@ -16,15 +16,13 @@ A mongo db will also be required, which can be obtained by installing a local in
 
 For docker the following docker command can be used:
 
-```
-bash
+```bash
 docker run --name mongo-db-auth-app -p 127.0.0.1:27017:27017 -d mongo:8.0.10-noble
 ```
 
 Then create a db called auth-app and a collection called users
 
-```
-bash
+```bash
 docker exec -it <container_id> mongosh // to access the db shell
 
 use auth-app
@@ -33,8 +31,7 @@ db.createCollection('users')
 
 Following endpoints can be accessed:
 
-```
-bash
+```bash
 POST - /signup
 POST - /login
 
