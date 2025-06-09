@@ -40,7 +40,7 @@ function validateRequest(req: Request, res: Response): boolean {
   return true;
 }
 
-app.post("/register", async (req: Request, res: Response) => {
+app.post("/signup", async (req: Request, res: Response) => {
   if (!validateRequest(req, res)) return;
   const saltRounds = 10;
   try {
