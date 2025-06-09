@@ -1,6 +1,6 @@
 # express-auth-app
 
-Using bcrypt, jsonwebtoken with express to understand how authenticaion request and response cycle works.
+Simple express app to understand how authenticaion cycle works.
 
 To run:
 
