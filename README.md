@@ -2,7 +2,7 @@
 
 Simple express app to understand how authenticaion cycle works.
 
-To run:
+To run the server locally:
 
 ```
 bash
